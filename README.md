@@ -1,10 +1,10 @@
-## Favicon Ico
+## 🔷Favicon Ico
 
 With this project I learned that sometimes having a file called favicon.ico is not cool for your index.html file. I ended up keeping the png extension so it worked.
 
 A favicon can actually be either a PNG, GIF, or ICO file.
 
-## Google Search Bar
+## 🔷Google Search Bar
 
 This is the recipe for your search bar to search in google:
 
@@ -29,7 +29,7 @@ This is the recipe for your search bar to search in google:
 
 Notice that the search bar appears in the navbar only when the screen is wide and at the bottom only when it is set to mobile size.
 
-## CSS
+## 🔷CSS
 
 ### Title Background
 
