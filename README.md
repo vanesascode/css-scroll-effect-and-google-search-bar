@@ -1,6 +1,14 @@
+# Blog article with css effects and a google search bar ( HTML, CSS)
+
+Blog article in which I apply css effects and include a google search bar ( HTML, CSS)
+
+Visit it [HERE](https://vanesascode.github.io/css-scroll-effect-and-google-search-bar/)
+
+![presentation](https://github.com/vanesascode/css-scroll-effect-and-google-search-bar/assets/131259155/ba216024-563c-42a9-9c76-e83b5752642f)
+
 ## 🔷Favicon Ico
 
-With this project I learned that sometimes having a file called favicon.ico is not cool for your index.html file. I ended up keeping the png extension so it worked.
+With this project I learned that sometimes having a file called favicon.ico is not cool for your index.html file. I ended up keeping the png extension so it worked. However, once I deployed the page, it seems not to be working again... I have to keep trying to see how to fix it.
 
 A favicon can actually be either a PNG, GIF, or ICO file.
 
@@ -31,7 +39,7 @@ Notice that the search bar appears in the navbar only when the screen is wide an
 
 ## 🔷CSS
 
-### Title Background
+### 🔸Title Background
 
 I wanted to put a background picture with opacity but without affecting the `<h1>` element. So I used the CSS `::before` pseudo-element.
 
@@ -70,7 +78,7 @@ z-index: -1;
 
 With this approach, the opacity will only affect the background picture, leaving the `<h1>` element unaffected.
 
-### Images Scroll Effect
+### 🔸Images Scroll Effect
 
 I used some of the latest css tools to make the images appear gradually as you scroll the page:
 
