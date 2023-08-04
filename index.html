@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico.png" />
+    <title>Developers School Blog</title>
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" style="font-family: 'Roboto Mono', monospace">
+          <img
+            src="media/computer.png"
+            alt="Logo"
+            class="d-inline-block align-text-top me-2"
+            style="height: 25px; width: 30px"
+          />
+          Developers School</a
+        >
+
+        <!--google search bar-->
+        <div class="d-none d-sm-block">
+          <form
+            class="d-flex"
+            action="https://www.google.com/search"
+            method="get"
+            target="_blank"
+            role="search"
+          >
+            <input
+              type="search"
+              name="q"
+              class="form-control me-2"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--article-->
+    <div class="container-fluid" style="margin-top: 120px">
+      <div class="row">
+        <div class="col-12 col-sm-8 col-lg-6 mx-auto">
+          <div class="mb-5 cover py-5">
+            <h1
+              class="fw-bolder text-center fs-1"
+              style="font-family: 'Roboto Mono', monospace"
+            >
+              Understanding the Kernel: <br />
+              The Core of Operating Systems
+            </h1>
+          </div>
+
+          <h4 class="mb-5">
+            The kernel is an integral part of any operating system, serving as
+            the bridge between software and hardware. It plays a crucial role in
+            managing system resources, providing essential services, and
+            enabling communication between software applications and hardware
+            devices.
+            <br />
+            <br />
+            In this article, we will delve into the world of kernels, exploring
+            their functions, types, and significance in the realm of operating
+            systems.
+          </h4>
+          <h2 class="mb-5">What is a Kernel?</h2>
+
+          <p class="mb-5">
+            At its core, a kernel is a fundamental component of an operating
+            system that acts as the intermediary layer between software
+            applications and the computer's hardware. It is responsible for
+            managing system resources, including memory, processor time,
+            input/output devices, and file systems. The kernel ensures that each
+            application receives the necessary resources to run efficiently and
+            securely.
+          </p>
+
+          <img
+            src="media/kernel-1.png"
+            alt="kernel-structure"
+            class="img-fluid mb-5"
+          />
+
+          <h2 class="mb-5">Functions of a Kernel:</h2>
+          <p class="mb-5">
+            <b>1. Process and Memory Management:</b> The kernel oversees the
+            execution of processes, allocating system resources, scheduling
+            tasks, and managing memory. It ensures that multiple processes can
+            run concurrently without interfering with each other, providing a
+            seamless multitasking experience.
+            <br />
+            <br />
+            <b>2. Device Management:</b> The kernel interacts with hardware
+            devices, managing their operation and facilitating communication
+            between software applications and the devices. It handles device
+            drivers, which act as intermediaries between the hardware and
+            software, enabling them to work together effectively.
+
+            <br />
+            <br />
+            <b>3. File System Management: </b> The kernel manages file systems,
+            including organizing and maintaining files on storage devices. It
+            provides an interface for applications to access and manipulate
+            files, ensuring data integrity and security.
+          </p>
+
+          <img
+            src="media/kernel-2.png"
+            alt="kernel-structure"
+            class="img-fluid mb-5"
+          />
+
+          <h2 class="mb-5">Significance of Kernels:</h2>
+          <p class="mb-5">
+            Kernels are the backbone of operating systems, providing essential
+            services and managing system resources. They ensure the stability,
+            security, and efficiency of the operating system. Kernels also
+            enable the development of various software applications by providing
+            a standardized interface for programmers to interact with hardware
+            devices. Without kernels, modern computing as we know it would not
+            be possible.
+          </p>
+
+          <img
+            src="media/old-computer.jpg"
+            alt="old-computer"
+            class="img-fluid mb-5"
+          />
+
+          <h2 class="mb-5">Conclusion:</h2>
+          <p class="mb-5">
+            The kernel is a vital component of any operating system, acting as
+            the core that enables software applications to interact with
+            hardware devices. It manages system resources, provides essential
+            services, and ensures the stability and security of the operating
+            system. Understanding the role and types of kernels is crucial for
+            anyone interested in the inner workings of operating systems and
+            computer systems as a whole.
+          </p>
+
+          <img
+            src="media/command-line.png"
+            alt="kernel-command-line"
+            class="img-fluid mb-5"
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container-fluid mx-0 bg-light pb-3 pt-4 mt-5">
+        <div
+          class="container-fluid d-flex justify-content-center flex-column text-center"
+        >
+          <!--google search bar-->
+          <div class="d-block d-sm-none my-3">
+            <form
+              class="d-flex"
+              action="https://www.google.com/search"
+              method="get"
+              target="_blank"
+              role="search"
+            >
+              <input
+                type="search"
+                name="q"
+                class="form-control me-2"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-dark" type="submit">Search</button>
+            </form>
+          </div>
+          <p class="my-3" style="font-family: 'Roboto Mono', monospace">
+            Developers School Copyright &copy; 2023
+            <br />
+            Pictures from
+            <a href="https://commons.wikimedia.org/"
+              >https://commons.wikimedia.org/</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
